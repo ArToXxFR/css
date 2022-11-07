@@ -1,0 +1,79 @@
+#exo_1{
+	transform: rotateY(180deg);
+}
+
+#exo_2 {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 5px;
+}
+
+#exo_3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#exo_4{
+	align-self: flex-end;
+
+}
+
+#exo_5{
+	margin: 0;
+	padding: 0;
+}
+
+#exo_5 ul li{
+	list-style-type: none;
+	display: inline;
+	vertical-align: middle;
+}
+
+ul{
+	padding: 0;
+	text-align: justify;
+}
+
+#exo_6{
+	background-image: url('https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive.jpg');
+	background-size: cover;
+}
+
+
+#exo_7{
+	/*display: none;*/
+	visibility:  hidden;
+}
+
+#exo_8 p{
+	color: green;
+	font-weight: bolder;
+	border: 5px dotted blue;
+	background-color: red;
+}
+
+#exo_9{
+	opacity: 0;
+}
+
+#exo_9:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+#exo_10 {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein{
+	from{
+		border: 1px solid black;
+	}
+	to{
+		border: 50px solid green;	
+	}
+}
